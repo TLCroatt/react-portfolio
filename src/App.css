@@ -1,0 +1,50 @@
+body {
+    background-image: url("./components/assets/Subtle-Prism.svg");
+}
+
+.container {
+    
+    background-color: #d1d4d4;
+    border-radius: 10px;
+    max-width: 1000px;
+    margin: 15px auto;
+    padding: 15px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    align-items: center;
+}
+
+.img-fluid {
+    border-radius: 10px;
+    height: 500px;
+    width: 300px;
+    margin-left: 70px;
+}
+
+.bio {
+    margin-right: 60px;
+    text-align: center;
+}
+
+.button {
+    align-items: center;
+    margin-top: 10px;
+}
+
+.social {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.contact {
+    text-align: center;
+    align-items: center;
+
+}
