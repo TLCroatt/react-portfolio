@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom"
 import {
     Collapse,
     Navbar,
@@ -23,13 +24,13 @@ const Navigation = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>
-              <NavLink href="/about">About</NavLink>
+              <NavLink tag={Link} to="/about">About</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/portfolio">Portfolio</NavLink>
+              <NavLink tag={Link} to="/portfolio">Portfolio</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/contact">Contact</NavLink>
+              <NavLink tag={Link} to="/contact">Contact</NavLink>
             </NavItem>
           </Nav>
         </Collapse>
