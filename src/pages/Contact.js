@@ -27,7 +27,7 @@ function Contact () {
             <Row>
                 <Col md="4"></Col>
                 <Col md="4">
-                <Button><a onClick={() => window.open(Resume)}>Resume</a></Button>
+                <Button onClick={() => window.open(Resume)}>Resume</Button>
                 </Col>
             </Row>
             <Row className="social">
