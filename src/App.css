@@ -1,5 +1,15 @@
 body {
+    box-sizing: border-box;
+    margin-bottom: 20px;
     background-image: url("./components/assets/Subtle-Prism.svg");
+    background-color: #cccccc;
+    height: 700px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center bottom;
 }
 
 .container {
@@ -8,6 +18,7 @@ body {
     border-radius: 10px;
     max-width: 1000px;
     margin: 15px auto;
+    margin-bottom: 10px;
     padding: 15px;
 }
 

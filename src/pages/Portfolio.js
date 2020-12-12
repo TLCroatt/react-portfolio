@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import Projects from "../components/Projects";
-import WorkDaySchedular from "../components/assets/WorkDaySchedular.png";
+import CCYA from "../components/assets/CCYA.png"
 import WeatherDash from "../components/assets/WeatherDash.png";
 import NearBeer from "../components/assets/NearBeer.png";
 import EatDaBurger from "../components/assets/EatDaBurger.png";
@@ -19,18 +19,18 @@ function Portfolio() {
                 <Row>
                     <Col md="4">
                         <Projects
-                            name="Work Day Scheduler"
-                            content="A simple day planner that stores your appointments."
-                            img={WorkDaySchedular}
-                            gitHub="https://github.com/TLCroatt/WorkDaySchedular"
+                            name="Commerce City Youth Athletics"
+                            content="React site with MongoDB for non-profit youth sports club."
+                            img={CCYA}
+                            gitHub="https://github.com/TLCroatt/ccya"
                         />
                     </Col>
                     <Col md="4">
                         <Projects
-                            name="Weather Dashboard"
-                            content="Get up to date weather conditions by city search, including five day forecast."
-                            img={WeatherDash}
-                            gitHub="https://github.com/TLCroatt/WeatherDashboard"
+                            name="Watch This!"
+                            content="Make a meta-watchlist for all the shows and movies on any streaming service."
+                            img={WatchThis}
+                            gitHub="https://github.com/gpardington/WatchThis"
                         />
                     </Col>
                     <Col md="4">
@@ -53,10 +53,10 @@ function Portfolio() {
                     </Col>
                     <Col md="4">
                         <Projects
-                            name="Watch This!"
-                            content="Make a meta-watchlist for all the shows and movies on any streaming service."
-                            img={WatchThis}
-                            gitHub="https://github.com/gpardington/WatchThis"
+                            name="Weather Dashboard"
+                            content="Get up to date weather conditions by city search, including five day forecast."
+                            img={WeatherDash}
+                            gitHub="https://github.com/TLCroatt/WeatherDashboard"
                         />
                     </Col>
                     <Col md="4">

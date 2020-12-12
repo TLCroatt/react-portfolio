@@ -8,7 +8,7 @@ function Projects(props) {
     }
   
 return (        
-    <Card>
+    <Card className="card">
         <CardImg top width="100%" src={props.img} alt={props.name}/>
         <CardBody>
             <CardTitle tag="h5">{props.name}</CardTitle>
