@@ -8,6 +8,7 @@ import NearBeer from "../components/assets/NearBeer.png";
 import EatDaBurger from "../components/assets/EatDaBurger.png";
 import WatchThis from "../components/assets/WatchThis.png";
 import BudgetTracker from "../components/assets/BudgetTracker.png";
+import Footer from "../components/Footer/index";
 
 
 function Portfolio() {
@@ -45,6 +46,9 @@ function Portfolio() {
                     </Col>
                 </Row>
                 <Row>
+                    <hr />
+                </Row>
+                <Row>
                     <Col md="4">
                         <Projects
                             name="Eat-Da-Burger"
@@ -70,9 +74,9 @@ function Portfolio() {
                         />
                     </Col>
                 </Row>
-
-        
             </Container>
+            <hr />
+            <Footer />
             </div>
     
     )

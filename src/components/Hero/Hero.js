@@ -19,8 +19,8 @@ const Hero = () => {
                 </NavItem>
             </Nav>
             <div className="hero-text">
-                <h1>I am Trisha Croatt</h1>
-                <p>I'm a full stack web developer in Colorado.</p>
+                <h1 className="hero-title">I am Trisha Croatt</h1>
+                <p>I'm a full stack web developer based in Colorado.</p>
             </div>
         </div>
     )
