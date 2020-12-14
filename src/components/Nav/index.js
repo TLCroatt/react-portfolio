@@ -1,40 +1,23 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom"
-import {
-    Collapse,
-    Navbar,
-    NavbarToggler,
-    NavbarBrand,
-    Nav,
-    NavItem,
-    NavLink
-  } from 'reactstrap';
+import { Nav, NavItem, NavLink } from 'reactstrap';
 import "./style.css";
 
-const Navigation = (props) => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggle = () => setIsOpen(!isOpen);
+const Navigation = () => {
 
   return (
     <div>
-      <Navbar className="navbar" light expand="md">
-        <NavbarBrand className="navbar-brand" href="/">Trisha Croatt</NavbarBrand>
-        <NavbarToggler onClick={toggle} />
-        <Collapse isOpen={isOpen} navbar>
-          <Nav className="mr-auto" navbar>
-            <NavItem>
-              <NavLink tag={Link} to="/about">About</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink tag={Link} to="/portfolio">Portfolio</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink tag={Link} to="/contact">Contact</NavLink>
-            </NavItem>
-          </Nav>
-        </Collapse>
-      </Navbar>
+      <Nav className="justify-content-center" id="top-nav" activeKey="/home">
+        <NavItem className="nav-item">
+          <NavLink className="nav-link" tag={Link} to="/about">About Me</NavLink>
+        </NavItem>
+        <NavItem className="nav-item">
+          <NavLink className="nav-link" tag={Link} to="/portfolio">My Work</NavLink>
+        </NavItem>
+        <NavItem className="nav-item">
+          <NavLink className="nav-link" tag={Link} to="/contact">Contact Me</NavLink>
+        </NavItem>
+      </Nav>
     </div>
   );
 }

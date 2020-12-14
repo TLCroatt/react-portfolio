@@ -1,11 +1,16 @@
 import React from "react";
-import { Container, Row, Col } from "reactstrap";
+import { Row, Col, Container } from "react-bootstrap";
 import ProfilePic from "../components/assets/profilePic.JPG";
+import Hero from "../components/Hero/Hero"
+import Footer from "../components/Footer/index"
+import "../App.css"
 
-const About = (props) => {
+const About = () => {
     return (
-        <Container>
-            <h1>About</h1>
+        <div>
+        <Hero />
+        <Container className="container">
+            <h1>About Me</h1>
             <hr />
            <Row>
                <Col md="6">
@@ -41,7 +46,10 @@ const About = (props) => {
                     </div>    
                </Col>
            </Row> 
-        </Container>
+           </Container>
+           <hr />
+           <Footer />
+        </div>   
     )
 }
 

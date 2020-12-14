@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "reactstrap";
+import Navigation from "../components/Nav/index";
 import Projects from "../components/Projects";
 import CCYA from "../components/assets/CCYA.png"
 import WeatherDash from "../components/assets/WeatherDash.png";
@@ -12,7 +13,8 @@ import BudgetTracker from "../components/assets/BudgetTracker.png";
 function Portfolio() {
 
     return (
-        
+        <div>
+        <Navigation />
             <Container>
                 <h1>Portfolio</h1>
                 <hr />
@@ -71,7 +73,7 @@ function Portfolio() {
 
         
             </Container>
-
+            </div>
     
     )
 }
