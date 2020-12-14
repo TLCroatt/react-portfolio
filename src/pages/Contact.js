@@ -3,6 +3,7 @@ import { Container, Row, Col, Button } from "reactstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons';
 import Resume from "../components/assets/Resume.pdf";
+import Navigation from "../components/Nav/index"
 
 function Contact () {
     
@@ -15,6 +16,8 @@ function Contact () {
     }
 
     return (
+        <div>
+        <Navigation />
         <Container className="contact">
              <h1>Contact</h1>
              <hr />
@@ -40,6 +43,7 @@ function Contact () {
                 <Col md="4" />
             </Row>
         </Container>
+        </div>
     )
 }
 
