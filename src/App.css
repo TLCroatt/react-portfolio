@@ -9,12 +9,10 @@ body {
 
 .container {
     margin-top: 50px;
-   
     
 }
 
 .top-image {
-    
     width: 100%;
 }
 
@@ -69,13 +67,27 @@ hr {
     margin-top: 10px;
 }
 
-.social {
-    margin-top: 10px;
-    text-align: center;
+.contact {
+    width: 750px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
-.contact {
-    text-align: center;
-    align-items: center;
+.contact-card {
+    padding: 30px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: 700px;
+    border-radius: 5px;
+}
 
+.resume {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 24px;
+}
+
+.resume-button {
+    font-size: 20px;
 }

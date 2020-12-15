@@ -6,3 +6,11 @@
    
 }
 
+.social {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.photo-cred {
+    font-size: 15px;;
+}

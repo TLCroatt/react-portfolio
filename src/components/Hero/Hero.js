@@ -7,7 +7,7 @@ const Hero = () => {
     return(
     
         <div className="hero-image">
-            <Nav className="justify-content-center" activeKey="/home">
+            <Nav className="justify-content-center">
                 <NavItem className="nav-item">
                     <NavLink className="nav-link" tag={Link} to="/about">About Me</NavLink>
                 </NavItem>

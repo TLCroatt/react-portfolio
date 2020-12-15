@@ -7,7 +7,7 @@ const Navigation = () => {
 
   return (
     <div>
-      <Nav className="justify-content-center" id="top-nav" activeKey="/home">
+      <Nav className="justify-content-center" id="top-nav">
         <NavItem className="nav-item">
           <NavLink className="nav-link" tag={Link} to="/about">About Me</NavLink>
         </NavItem>
