@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import Navigation from "../components/Nav/index";
 import Projects from "../components/Projects";
-import CCYA from "../components/assets/CCYA.png"
+import CCYA from "../components/assets/CCYA.png";
 import WeatherDash from "../components/assets/WeatherDash.png";
 import NearBeer from "../components/assets/NearBeer.png";
 import EatDaBurger from "../components/assets/EatDaBurger.png";
