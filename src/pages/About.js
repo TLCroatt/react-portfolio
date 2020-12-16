@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import Image from "react-bootstrap/Image";
-import ProfilePic from "../components/assets/ProfilePic.jpg"; 
+import ProfilePic from "../components/assets/profilePic.JPG"; 
 import Hero from "../components/Hero/Hero";
 import Footer from "../components/Footer/index";
 import "../App.css";
